@@ -1,0 +1,33 @@
+{
+    "name": "offlogs/client",
+    "type": "library",
+    "keywords": [
+        "log",
+        "logging",
+        "offlogs"
+    ],
+    "description": "OffLogs client to push new logs",
+    "homepage": "https://offlogs.com",
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "7.4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Heorhii Shira",
+            "email": "lampego@gmail.com",
+            "homepage": "https://georgyshira.info",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "OffLogs": "src"
+        }
+    }
+}
